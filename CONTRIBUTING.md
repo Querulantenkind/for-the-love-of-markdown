@@ -155,6 +155,45 @@ When submitting a new template:
 6. Examples: Include filled-in example with realistic content
 7. Metadata: List intended use cases and tested platforms
 
+### Template Structure
+```
+# Template Name
+
+Brief description of purpose and intended use.
+
+## Intended For
+
+- Project type 1
+- Project type 2
+- Use case 3
+
+## Variants Included
+
+- Minimal: [description]
+- Standard: [description]
+- Comprehensive: [description]
+
+## Tested On
+
+- GitHub
+- GitLab
+- Bitbucket
+- VS Code Preview
+- Terminal viewers (cat, less, bat)
+
+---
+
+[Minimal variant]
+
+---
+
+[Standard variant]
+
+---
+
+[Comprehensive variant]
+```
+
 ### Best Practices
 
 - Focus on common use cases first
@@ -178,6 +217,47 @@ When submitting a style guide:
 6. Checklist: Self-review items
 7. References: Links to official documentation
 
+### Style Guide Structure
+```
+# Style Guide Name
+
+Brief description of scope and purpose.
+
+## Scope
+
+What this guide covers and doesn't cover.
+
+## Principles
+
+Core recommendations and philosophy.
+
+## Guidelines
+
+### Section 1
+
+Detailed guidance with examples.
+
+Good example:
+[...]
+
+Problematic example:
+[...]
+
+## Checklist
+
+- [ ] Criterion 1
+- [ ] Criterion 2
+
+## Platform Considerations
+
+Specific behaviors on different platforms.
+
+## References
+
+- Official documentation
+- Related resources
+```
+
 ## Gallery Submission Guidelines
 
 When submitting a gallery example:
@@ -190,6 +270,33 @@ When submitting a gallery example:
 4. Specific techniques to highlight
 5. Screenshots or key excerpts (with permission)
 6. Author/maintainer attribution
+
+### Submission Format
+```
+## Project Name
+
+Link: [URL]
+License: [License type]
+Submitted by: [Your GitHub username]
+Date: [YYYY-MM-DD]
+
+### What Makes It Exemplary
+
+[50-150 word explanation]
+
+### Techniques Highlighted
+
+- Technique 1: [brief explanation]
+- Technique 2: [brief explanation]
+
+### Key Excerpts
+
+[Include relevant excerpts or link to specific sections]
+
+### Analysis
+
+[Optional: deeper analysis of structure, hierarchy, visual design]
+```
 
 ### Criteria for Gallery Inclusion
 
@@ -241,4 +348,5 @@ Thank you for helping make Markdown documentation better for everyone.
 ---
 
 Last updated: 2025-11-19
+Maintainer: @Querulantenkind
 Maintainer: @Querulantenkind
