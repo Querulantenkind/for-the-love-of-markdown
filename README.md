@@ -16,6 +16,25 @@ Target audiences: software developers, technical writers, digital artists, conte
 - CHANGELOG.md - Version history formatting standards
 - CODE_OF_CONDUCT.md - Community standards and expectations
 
+#### Personal Branding (`/templates/personal/`)
+- github-profile-dynamic.md - High-impact profile with stats and badges
+- resume-cv-modern.md - Clean, two-column CV layout
+- portfolio-gallery.md - Grid-based project showcase
+
+#### Project Management (`/templates/project-management/`)
+- roadmap-gantt.md - Visual timelines with Mermaid.js
+- architecture-decision-record.md - Structured technical decision logs (ADR)
+- release-notes-visual.md - Engaging changelogs with collapsible sections
+
+#### Creative Layouts (`/templates/creative/`)
+- newsletter-issue.md - Magazine-style weekly updates
+- cheat-sheet-grid.md - Dense, multi-column reference guides
+- recipe-card.md - Visual instructions with metadata tables
+
+#### Dashboards (`/templates/dashboards/`)
+- status-page.md - System health and incident logs
+- sprint-board.md - Text-based Kanban for task tracking
+
 ### Style Guides (`/style-guides/`)
 - github-documentation.md - GitHub-specific conventions and features
 - technical-writing.md - Clear, accessible technical prose guidelines
@@ -57,6 +76,8 @@ All templates include commented annotations, real-world usage examples, variatio
 | Need | Location |
 |------|----------|
 | Create professional README | templates/README.md |
+| Build a GitHub Profile | templates/personal/github-profile-dynamic.md |
+| Visualize Project Roadmap | templates/project-management/roadmap-gantt.md |
 | Accessibility-first documentation | advanced-formatting/accessibility.md |
 | Terminal-native content | style-guides/terminal-native.md |
 | ASCII art integration | advanced-formatting/ascii-art-integration.md |
