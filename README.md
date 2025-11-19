@@ -1,146 +1,105 @@
-# For the Love of Markdown 💚
+# For the Love of Markdown
 
-> A comprehensive library of Markdown and text styling templates, guides, and best practices for developers, writers, and digital artists.
+A comprehensive library of Markdown and text styling templates, guides, and best practices for developers, writers, and digital artists.
 
-## 🎯 Overview
+## Overview
 
-**For the Love of Markdown** is a curated collection of reusable Markdown templates, style guides, and documentation patterns designed for:
+For the Love of Markdown is a curated collection of reusable Markdown templates, style guides, and documentation patterns. This repository treats Markdown as both a practical tool and a creative medium, offering structured guidance from minimalist documentation to richly styled text-based compositions.
 
-- **Software Projects**: READMEs, API docs, contributing guides, changelogs
-- **Technical Writers**: Blog posts, tutorials, guides, case studies
-- **Digital Artists**: ASCII/Unicode art integration, creative formatting
-- **Content Creators**: Zines, newsletters, long-form essays
+Target audiences: software developers, technical writers, digital artists, content creators.
 
-This repository celebrates Markdown as both a **practical tool** and a **creative medium**, offering everything from minimalist documentation to richly styled text-based compositions.
+## Repository Structure
 
-## 📚 Contents
+### Core Templates (`/templates/`)
+- README.md - Project overview templates (minimal, standard, comprehensive variants)
+- CONTRIBUTING.md - Contribution guidelines and community processes
+- CHANGELOG.md - Version history formatting standards
+- CODE_OF_CONDUCT.md - Community standards and expectations
 
-### [1. Core Templates](./templates/)
-Ready-to-use templates for common project needs:
-- `README.md` - Project overview templates (minimal, standard, comprehensive)
-- `CONTRIBUTING.md` - Contribution guidelines
-- `CHANGELOG.md` - Version history formatting
-- `CODE_OF_CONDUCT.md` - Community standards
+### Style Guides (`/style-guides/`)
+- github-documentation.md - GitHub-specific conventions and features
+- technical-writing.md - Clear, accessible technical prose guidelines
+- academic-formatting.md - Research paper and essay structure
+- terminal-native.md - Styles optimized for terminal viewing and CLI tools
 
-### [2. Style Guides](./style-guides/)
-Best practices for different contexts:
-- `github-documentation.md` - GitHub-specific conventions
-- `technical-writing.md` - Clear, accessible technical prose
-- `academic-formatting.md` - Research paper and essay structure
-- `terminal-native.md` - Styles optimized for terminal viewing
+### Advanced Formatting (`/advanced-formatting/`)
+- ascii-art-integration.md - Embedding ASCII art in documentation
+- unicode-symbols.md - Unicode art, emoji, and symbol usage
+- color-and-ansi.md - ANSI codes for terminal colors
+- accessibility.md - Semantic Markdown for screen readers and assistive technology
 
-### [3. Advanced Formatting](./advanced-formatting/)
-Creative and technical formatting techniques:
-- `ascii-art-integration.md` - Embedding ASCII art in docs
-- `unicode-symbols.md` - Unicode art, emoji, and symbols
-- `color-and-ansi.md` - ANSI codes for terminal colors
-- `accessibility.md` - Semantic Markdown for screen readers
+### Platform Guides (`/platform-guides/`)
+- github.md - GitHub Flavored Markdown features and extensions
+- gitlab.md - GitLab-specific extensions and syntax
+- markdown-to-pdf.md - Conversion best practices and tooling
+- static-site-generators.md - Hugo, Jekyll, 11ty compatibility
 
-### [4. Platform Guides](./platform-guides/)
-Platform-specific optimizations:
-- `github.md` - GitHub Flavored Markdown features
-- `gitlab.md` - GitLab-specific extensions
-- `markdown-to-pdf.md` - Conversion best practices
-- `static-site-generators.md` - Hugo, Jekyll, 11ty compatibility
+### Gallery (`/gallery/`)
+Real-world examples from excellent projects with annotations, technique analysis, and readability studies.
 
-### [5. Gallery](./gallery/)
-Showcase of beautiful, well-formatted documentation:
-- Real-world examples from excellent projects
-- Annotated with techniques and best practices
-- Analysis of visual hierarchy and readability
+### Creative Collections (`/creative-collections/`)
+- digital-zines.md - Creating zines in Markdown
+- poetry-and-prose.md - Literary formatting techniques
+- narrative-structures.md - Interactive and non-linear storytelling
+- emoji-art.md - Visual creativity with emoji and Unicode
 
-### [6. Creative Collections](./creative-collections/)
-Markdown as an artistic medium:
-- `digital-zines.md` - Creating zines in Markdown
-- `poetry-and-prose.md` - Literary formatting techniques
-- `narrative-structures.md` - Interactive and non-linear storytelling
-- `emoji-art.md` - Visual creativity with emoji and Unicode
+## Template Philosophy
 
-## 🚀 Quick Start
+Each template provides three variants:
+- Minimal: Bare essentials for quick starts
+- Standard: Recommended structure for most use cases
+- Comprehensive: Full-featured for complex projects
 
-### I want to create a professional README
-→ See: [`templates/README.md`](./templates/README.md)
+All templates include commented annotations, real-world usage examples, variations for different project types, and cross-platform compatibility notes.
 
-### I want accessibility-first documentation
-→ See: [`advanced-formatting/accessibility.md`](./advanced-formatting/accessibility.md)
+## Quick Navigation
 
-### I want to create terminal-native content
-→ See: [`style-guides/terminal-native.md`](./style-guides/terminal-native.md)
+| Need | Location |
+|------|----------|
+| Create professional README | templates/README.md |
+| Accessibility-first documentation | advanced-formatting/accessibility.md |
+| Terminal-native content | style-guides/terminal-native.md |
+| ASCII art integration | advanced-formatting/ascii-art-integration.md |
+| PDF conversion guidance | platform-guides/markdown-to-pdf.md |
+| Real-world examples | gallery/ |
 
-### I want to integrate ASCII art
-→ See: [`advanced-formatting/ascii-art-integration.md`](./advanced-formatting/ascii-art-integration.md)
+## Design Principles
 
-## 📖 Featured Sections
+Markdown can be beautiful without bloat, accessible without sacrificing creativity, practical while remaining artistic, and simple yet expressive. This repository challenges the assumption that Markdown is merely utilitarian.
 
-### Templates & Examples
-Each template includes:
-- **Minimal version** (bare essentials)
-- **Standard version** (recommended structure)
-- **Comprehensive version** (full-featured)
-- **Commented annotations** explaining each section
-- **Variations** for different project types
+## Quality Checklist
 
-### Style Guides
-Each guide provides:
-- **Principles** behind the recommendations
-- **Examples** of good vs. problematic formatting
-- **Checklists** for self-review
-- **Cross-platform considerations**
+Before publishing Markdown documentation:
+- Clear hierarchy with consistent heading levels (h1 to h6)
+- Descriptive link text avoiding "click here" patterns
+- Code blocks specify language for syntax highlighting
+- Consistent list formatting throughout document
+- Images include descriptive alt text
+- Tables used appropriately, not for layout
+- No orphaned formatting (bold/italic without context)
+- Terminal-viewable with critical info accessible without images
+- Cross-platform tested (GitHub, GitLab, VS Code, etc.)
 
-### Advanced Techniques
-Deep dives into:
-- Unicode and emoji usage
-- ANSI color codes for terminal output
-- Semantic HTML in Markdown
-- Conversion quirks and workarounds
+## Contributing
 
-## 🎨 Philosophy
+Contributions welcome: new templates for common scenarios, style improvements to existing guides, gallery submissions of excellent documentation, creative techniques and experimental approaches, bug reports and clarifications.
 
-Markdown is often treated as a *utilitarian tool*—functional but forgettable. This project challenges that assumption. Markdown can be:
+Requirements: check existing templates first, test Markdown across multiple platforms, include examples and use cases, follow contribution guidelines in CONTRIBUTING.md.
 
-- **Beautiful** without being bloated
-- **Accessible** without sacrificing creativity
-- **Practical** while remaining artistic
-- **Simple** yet expressive
+## Resources
 
-Whether you're documenting code or creating digital art, Markdown offers surprising depth for those willing to explore it.
+- CommonMark Specification: https://spec.commonmark.org/
+- GitHub Flavored Markdown: https://github.github.com/gfm/
+- Markdown Guide: https://www.markdownguide.org/
+- Unicode Character Table: https://unicode-table.com/
 
-## 🤝 Contributing
+## Project Information
 
-We welcome contributions! Share:
-- **New templates** for common scenarios
-- **Style improvements** to existing guides
-- **Gallery submissions** of excellent Markdown documentation
-- **Creative techniques** and experimental approaches
-- **Bug reports** or clarifications
-
-See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for details.
-
-## 📋 Checklist: Is Your Markdown Ready?
-
-- [ ] Clear hierarchy with consistent heading levels (h1 → h6)
-- [ ] Descriptive link text (not "click here")
-- [ ] Code blocks with language specification
-- [ ] Consistent list formatting (bullet vs. numbered)
-- [ ] Images include alt text
-- [ ] Tables are used appropriately
-- [ ] No orphaned formatting (bold/italic without context)
-- [ ] Terminal-viewable (no embedded images for critical info)
-
-## 🔗 Resources
-
-- [CommonMark Specification](https://spec.commonmark.org/)
-- [GitHub Flavored Markdown](https://github.github.com/gfm/)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [Unicode Cheatsheet](https://unicode-table.com/)
-
-## 📜 License
-
-This project is licensed under [CC0 1.0 Universal](./LICENSE) – feel free to use, remix, and redistribute.
+- License: MIT License
+- Last Updated: 2025-11-19
+- Maintainer: @Querulantenkind
+- Repository: https://github.com/Querulantenkind/for-the-love-of-markdown
 
 ---
 
-**Last Updated**: 2025-11-19  
-**Maintainer**: [@Querulantenkind](https://github.com/Querulantenkind)
-
-*Craft with intention. Document with love.* 💚
+Craft with intention. Document with love.
